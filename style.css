@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(66, 0, 0);
+    color: aliceblue;
+}
+
+header h1{
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: nome;
+}
+
+nav a {
+    color: white;
+    text-decoration: nome;
+    transition: 0,3s;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    background-color: rgb(128, 0, 0);
+}
